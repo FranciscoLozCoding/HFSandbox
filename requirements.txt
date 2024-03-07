@@ -2,3 +2,4 @@ numpy
 transformers[torch]
 accelerate
 bitsandbytes
+datasets
