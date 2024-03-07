@@ -21,7 +21,7 @@ def main():
         model_id, 
         torch_dtype=torch.float16, 
         low_cpu_mem_usage=True,
-        load_in_4bit=True
+        #load_in_4bit=True
     )
 
     processor = AutoProcessor.from_pretrained(model_id)
